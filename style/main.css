@@ -1,0 +1,161 @@
+html, body {
+    margin: 0;
+    color: #333;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: serif;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: normal;
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+}
+
+header h1 .very-strong {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000;
+}
+
+header h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+}
+
+#social-bar {
+    margin: 0 auto 0 auto;
+    padding: 0;
+    background-color: #333;
+    border: 3px solid #111;
+    width: fit-content;
+    max-width: 50%;
+    height: calc(2em + 10px); /* since fit-content doesn't work correctly, for some reason (I hate CSS) */
+}
+
+#social-bar li {
+    list-style-type: none;
+    display: inline;
+}
+
+#social-bar a img {
+    margin: 0;
+    display: inline;
+    width: 2em;
+    padding: 5px;
+}
+
+#social-bar img:hover {
+    background-color: #111;
+}
+
+main {
+    max-width: 750px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px; /* some space for the footer */
+}
+
+main p {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.section-wrapper {
+    margin-top: 10px;
+    margin-left: 5%;
+    padding: 10px;
+    border-left: 2px solid #555;
+}
+
+section {
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #555;
+}
+
+section:first-child {
+    margin-top: 0;
+}
+
+section h2 img {
+    width: 30px;
+    transform: translateY(4px);
+    padding-right: 10px;
+}
+
+main a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+main a:hover {
+    color: #000;
+}
+
+.link-bar::before {
+    padding-left: 10px;
+    content: "> ";
+}
+
+.link-bar {
+    font-family: "Roboto Mono", monospace;
+    font-size: 13px;
+}
+
+.link-bar a {
+    color: #000;
+}
+
+section p {
+    max-width: 75%;
+    margin-left: 10px;
+}
+
+.version-marker {
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    color: #555;
+}
+
+footer {
+    margin-top: auto;
+    border-top: 1px solid #555;
+    padding: 20px;
+    text-align: right;
+}
+
+q {
+    font-style: italic;
+}
+
+a {
+    color: inherit;
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
