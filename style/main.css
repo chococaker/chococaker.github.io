@@ -41,26 +41,34 @@ header h2 {
     margin: 0 auto 0 auto;
     padding: 0;
     background-color: #333;
-    border: 3px solid #111;
+    /* border: 3px solid #111; */
     width: fit-content;
     max-width: 50%;
-    height: calc(2em + 10px); /* since fit-content doesn't work correctly, for some reason (I hate CSS) */
+    height: calc(2em + 14px);  /* since fit-content doesn't work correctly, for some reason (I hate CSS) */
 }
 
 #social-bar li {
     list-style-type: none;
     display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+#social-bar a {
+    padding: 0;
+    margin: 0;
 }
 
 #social-bar a img {
     margin: 0;
     display: inline;
     width: 2em;
-    padding: 5px;
+    height: 2em;
+    padding: 7px;
 }
 
 #social-bar img:hover {
-    background-color: #111;
+    background-color: #222;
 }
 
 main {
