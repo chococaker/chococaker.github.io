@@ -96,19 +96,20 @@ h1 {
     border-left: 2px solid #555;
 }
 
-section {
+.section-wrapper section {
     margin-left: 4px;
     margin-right: 4px;
     margin-top: 10px;
     padding: 10px;
+    padding-left: 17px;
     border: 2px solid #555;
 }
 
-section:first-child {
+.section-wrapper section:first-child {
     margin-top: 0;
 }
 
-section h2 img {
+.section-wrapper section h2 img {
     width: 30px;
     transform: translateY(4px);
     padding-right: 10px;
@@ -137,7 +138,7 @@ main a:hover {
     color: #000;
 }
 
-section p {
+.section-wrapper section p {
     max-width: 75%;
     margin-left: 10px;
 }
@@ -153,6 +154,27 @@ footer {
     border-top: 1px solid #555;
     padding: 20px;
     text-align: right;
+}
+
+.collapsed-section-wrapper ul {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0;
+}
+
+.collapsed-section-wrapper ul li {
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid #555;
+    list-style-type: none;
+    display: inline-block;
+    width: 40%;
+    min-width: 300px;
+    max-width: 1000px;
+    box-sizing: border-box;
 }
 
 q {
