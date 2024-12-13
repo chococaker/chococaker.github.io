@@ -1,5 +1,5 @@
 function navigateTo(location) {
-    document.location = "../" + location;
+    document.location = "/" + location;
 }
 
 function keyupLinking(e) {
