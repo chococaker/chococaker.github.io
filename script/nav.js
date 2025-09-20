@@ -7,19 +7,19 @@ function keyupLinking(e) {
 
     switch (e.key) {
         case "h":
-            navigateTo("index.html");
+            navigateTo("index");
             break;
 
         case "a":
-            navigateTo("about.html");
+            navigateTo("about");
             break;
 
         case "b":
-            navigateTo("blog.html");
+            navigateTo("blog");
             break;
 
         case "d":
-            navigateTo("docs.html");
+            navigateTo("docs");
             break;
     }
 }
