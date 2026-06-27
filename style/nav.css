@@ -1,0 +1,33 @@
+nav {
+    font-size: 25px;
+    font-family: "Roboto Mono", monospace;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: initial;
+    margin: 0;
+    padding: 15px;
+    text-align: right;
+}
+
+nav ul li {
+    padding: 5px;
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li a:hover, nav ul .key-selected {
+    text-decoration: underline;
+    color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+}

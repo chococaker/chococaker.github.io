@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home | chococaker</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" />        
+
+        <link rel="stylesheet" href="/style/main.css" />
+        <link rel="stylesheet" href="/style/nav.css" />
+
+        <link rel="shortcut icon" href="/assets/img/favicon-32x32.png" />
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li id="home-link"><a href="/">[<u>H</u>]OME</a></li>
+                <li id="about-link"><a href="/about">[<u>A</u>]BOUT</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>I&rsquo;m <span class="very-strong">chococaker</span>.</h1>
+            <h2>Part-time computer nerd, full-time cake muncher.</h2>
+
+            <br />
+
+            <ul id="social-bar">
+                <li><a href="https://github.com/chococaker" target="_blank"><img src="/assets/img/github-logo-white-128x128.png" alt="GitHub Logo" title="GitHub/chococaker" /></a></li>
+            </ul>
+        </header>
+
+        <main>
+            <h1>About Me</h1>
+
+            <p>Check out my <a href="about">About Me</a> page if you haven&rsquo;t already! I&rsquo;m more than just my projects.</p>
+            <p>Of course, if you&rsquo;re just here to see my projects, keep scrolling.</p>
+
+            <br /><hr /><br />
+
+            <h1>Projects</h1>
+
+            <p>I like to work in a large variety of technologies, dabbling in everything. Have a look:</p>
+            <div class="section-wrapper">
+                <section>
+                    <h2><img src="/assets/img/cpp-logo-512x512.png" title="C++" alt="C++ Logo" />castella <span class="version-marker">v1.0</span></h2>
+                    <span class="link-bar"><a href="https://github.com/chococaker/castella" target="_blank">SOURCE CODE</a> | <a href="https://github.com/chococaker/castella/releases" target="_blank">RELEASES</a></span>
+                    <p>A <i>castella</i> is a delightful Japanese sponge cake that originates from trade between Portugual and Japan in the 16<super>th</super> century. More importantly, it&rsquo;s the name of my newest chess engine.</p>
+                    <p>This one is much stronger than the earlier Johnner, by approximately 800 elo points. It&rsquo;s also much more cleanly coded. Writing Johnner taught me a lot about the value of keeping things modular and imperative; I applied that very much here.</p>
+                </section>
+
+                <section>
+                    <h2><img src="/assets/img/cpp-logo-512x512.png" title="C++" alt="C++ Logo" />Johnner Chess Engine <span class="version-marker">v1.0</span></h2>
+                    <span class="link-bar"><a href="https://github.com/chococaker/Johnner" target="_blank">SOURCE CODE</a></span>
+                    <p>A chess engine that I&rsquo;m building so I can annihilate my friend Samuel&rsquo;s chess engine, <a href="https://github.com/ultraeon/AmbiorixChess">Ambiorix</a>. We&rsquo;re in something of a competition right now, and are trying to see what evaluation technique is better: search trees or decision trees?</p>
+                    <p>I think search trees are better. We&rsquo;ll see who comes out on top in the end.</p>
+                    <p><i>2026 update: I won.</i></p>
+                </section>
+
+                <section>
+                    <h2><img src="/assets/img/javascript-logo-512x512.png" title="JavaScript" alt="JavaScript Logo" />LimeStone Simulator <span class="version-marker">v1.0</span></h2>
+                    <span class="link-bar"><a href="https://chococaker.github.io/LimeStone/" target="_blank">DEMO</a> | <a href="https://github.com/chococaker/LimeStone" target="_blank">SOURCE CODE</a></span>
+                    <p>A fully-fledged Redstone simulator, written in pure HTML/CSS/JS with no external dependencies!</p>
+                    <p>My friend (graphic designer) and I hope to continue on with this project to make it even more faithful to the original game by adding even more complex features, such as item entities and physics. This project has been educational so far; I hope to continue to learn by developing it even further.</p>
+                </section>
+
+                <section>
+                    <h2><img src="/assets/img/java-logo-512x512.png" class="java-bruh" title="Java" alt="Java Logo" />jjason <span class="version-marker">v1.0</span></h2>
+                    <span class="link-bar"><a href="/docs/jjason" target="_blank">DOCS</a> | <a href="https://github.com/chococaker/JJason" target="_blank">SOURCE CODE</a></span>
+                    <p>A small JSON de/serialisation library for Java. It&rsquo;s named that way because it&rsquo;s <u>J</u>ava <u>J</u>a<u>son</u>. Get it?</p>
+                    <p>It uses iteration to process the JSON. That&rsquo;s a pretty fast way to do it, but what I&rsquo;m really going for here is to maintain functionality AND tininess of the binaries.</p>
+                </section>
+
+                <section>
+                    <h2><img src="/assets/img/cpp-logo-512x512.png" title="C++" alt="C++ Logo" />warzonecivilisation <span class="version-marker">w.i.p.</span></h2>
+                    <span class="link-bar"><a href="https://github.com/chococaker/warzonecivilisation" target="_blank">SOURCE CODE</a></span>
+                    <p>A board game framework built around the Entity-Component-System design. It&rsquo;s named this way because it was originally intended to be a multiplayer game where one must manage their resources wisely in order to succeed, but it quickly turned into a fully-fledged board game library.</p>
+                    <p>It is still in development, but hopefully an alpha version should be finished soon.</p>
+                </section>
+
+                <section>
+                    <h2><img src="/assets/img/javascript-logo-512x512.png" title="JavaScript" alt="JavaScript Logo" />chococaker website <span class="version-marker">v.idk</span></h2>
+                    <span class="link-bar"><a href="https://github.com/chococaker/chococaker.github.io" target="_blank">SOURCE CODE</a></span>
+                    <p>This website. I know, it&rsquo;s very detailed and complicated. I&rsquo;m not a frontend person. I built this site so that I could claim the domain more than anything.</p>
+                    <p>What we have here is just a static webpage built from the ground up with some good ol&rsquo; pure HTML, CSS, and JavaScript.</p>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            chococaker &copy; 2024
+        </footer>
+
+        <script src="/script/nav.js" type="text/javascript"></script>
+    </body>
+</html>
